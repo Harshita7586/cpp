@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+class pyramid
+{
+	private:
+		int i,j,p,q,r;
+		public:
+			pyramid()  //constructor
+			{
+				r=5;
+			q=r;
+			}
+			void sol()
+			{
+				for(i=1;i<=r;i++)
+				{
+					for(j=1;j<=q;j++)
+					{
+						cout<<" ";
+					}
+					q--;
+					for(p=1;p<=i;p++)
+					{
+						cout<<" "<<i;
+					}
+					cout<<endl;
+				}
+			}
+			~pyramid()  //destructor
+			{
+				cout<<endl<<"object destroyed";
+			}
+};
+int main()
+{
+	pyramid ob;
+	ob.sol();
+}
