@@ -1,10 +1,9 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
 class number
 {
 	private:
-		int i,n;
+		int i,n,p,q;
 		public:
 			number()
 	        {
@@ -36,5 +35,5 @@ int main()
    	int p,q;
 	number obj(p,q);
 	obj.display();
-	getch();
+	
 }
