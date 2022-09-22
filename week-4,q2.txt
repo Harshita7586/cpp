@@ -2,7 +2,7 @@
 using namespace std;
 class Floyds_Triangle
 {
-	public:
+	private:
 		int i,j,p,q,n;
 		public:
 //constructor
