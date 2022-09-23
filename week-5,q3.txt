@@ -3,7 +3,7 @@ using namespace std;
 class Area
 {
 private:
-int i,b;
+int l,b;
 public:
     void output(int l, int b)
     {
