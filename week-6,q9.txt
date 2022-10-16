@@ -2,13 +2,13 @@
 #include<string.h>
 using namespace std;
 
-class func
+class palindrome
 {
         public:
                 void pal(int );
                 void pal(char c[]);
 };
-void func :: pal(int n)
+void palindrome :: pal(int n)
 {
         int n1,sum,a;
         n1=n;
@@ -27,7 +27,7 @@ void func :: pal(int n)
                 cout<<"\n it is not a palindrome";
 
 }
-void func :: pal(char c[])
+void palindrome :: pal(char c[])
 {
         int l=strlen(c);
         char b[10];
@@ -48,7 +48,7 @@ int main()
 {
         char c[10];
         int k,r,v;
-        func p;
+        palindrome p;
         do
         {
                 cout<<"palindrome"<<endl;
