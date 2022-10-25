@@ -5,12 +5,12 @@
 using namespace std;
 class CompareString {
 
-public:
-
 	char str[25];
 
+public:
 
-	CompareString(char str1[])
+	
+        CompareString(char str1[])
 	{
 	
 		strcpy(this->str, str1);
